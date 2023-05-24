@@ -1,10 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        int priceticket;
-        int pricemile;
-        priceticket = 20_000;
-        pricemile = 20;
-        int mile = priceticket / pricemile;
+        int priceTicket = 20_000;
+        int priceMile = 20;
+        int mile = priceTicket / priceMile;
         System.out.println("Начислено " + mile + " миль");
     }
 }
